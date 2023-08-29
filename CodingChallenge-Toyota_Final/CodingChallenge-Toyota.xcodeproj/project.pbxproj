@@ -11,6 +11,8 @@
 		235552DC2A9D51FD005B4A52 /* Cloudi_31.riv in Resources */ = {isa = PBXBuildFile; fileRef = 235552D82A9D51FD005B4A52 /* Cloudi_31.riv */; };
 		235552DD2A9D51FD005B4A52 /* fog-31.riv in Resources */ = {isa = PBXBuildFile; fileRef = 235552D92A9D51FD005B4A52 /* fog-31.riv */; };
 		235552DE2A9D51FD005B4A52 /* RainWeather31.riv in Resources */ = {isa = PBXBuildFile; fileRef = 235552DA2A9D51FD005B4A52 /* RainWeather31.riv */; };
+		2380CFE82A9E517D009A6A5A /* PLANTUML_Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380CFE72A9E517D009A6A5A /* PLANTUML_Project.swift */; };
+		2380CFEA2A9E57B1009A6A5A /* UML_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CFE92A9E57B1009A6A5A /* UML_Diagram.png */; };
 		238662BB2A994B3800924E5F /* PittsburghWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238662BA2A994B3800924E5F /* PittsburghWeatherModel.swift */; };
 		238662BD2A99591D00924E5F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238662BC2A99591D00924E5F /* Service.swift */; };
 		238662BF2A995AC800924E5F /* PittsburghWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238662BE2A995AC800924E5F /* PittsburghWeatherViewModel.swift */; };
@@ -43,6 +45,8 @@
 		235552D82A9D51FD005B4A52 /* Cloudi_31.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cloudi_31.riv; sourceTree = "<group>"; };
 		235552D92A9D51FD005B4A52 /* fog-31.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fog-31.riv"; sourceTree = "<group>"; };
 		235552DA2A9D51FD005B4A52 /* RainWeather31.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = RainWeather31.riv; sourceTree = "<group>"; };
+		2380CFE72A9E517D009A6A5A /* PLANTUML_Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLANTUML_Project.swift; sourceTree = "<group>"; };
+		2380CFE92A9E57B1009A6A5A /* UML_Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UML_Diagram.png; sourceTree = "<group>"; };
 		238662BA2A994B3800924E5F /* PittsburghWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PittsburghWeatherModel.swift; sourceTree = "<group>"; };
 		238662BC2A99591D00924E5F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		238662BE2A995AC800924E5F /* PittsburghWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PittsburghWeatherViewModel.swift; sourceTree = "<group>"; };
@@ -83,11 +87,13 @@
 		23E382D72A9942DC007A54A8 = {
 			isa = PBXGroup;
 			children = (
+				2380CFE72A9E517D009A6A5A /* PLANTUML_Project.swift */,
 				23E3CE5C2A9C3DC500B6CF7E /* new_file-30.riv */,
 				235552D72A9D51FD005B4A52 /* Clear_Weather31.riv */,
 				235552D82A9D51FD005B4A52 /* Cloudi_31.riv */,
 				235552D92A9D51FD005B4A52 /* fog-31.riv */,
 				235552DA2A9D51FD005B4A52 /* RainWeather31.riv */,
+				2380CFE92A9E57B1009A6A5A /* UML_Diagram.png */,
 				23E382E22A9942DC007A54A8 /* CodingChallenge-Toyota */,
 				23E3CE6B2A9C4B2E00B6CF7E /* CodingChallenge-ToyotaTests */,
 				23E382E12A9942DC007A54A8 /* Products */,
@@ -259,6 +265,7 @@
 			files = (
 				235552DB2A9D51FD005B4A52 /* Clear_Weather31.riv in Resources */,
 				235552DC2A9D51FD005B4A52 /* Cloudi_31.riv in Resources */,
+				2380CFEA2A9E57B1009A6A5A /* UML_Diagram.png in Resources */,
 				235552DE2A9D51FD005B4A52 /* RainWeather31.riv in Resources */,
 				23E3CE652A9C43C800B6CF7E /* MoceData2.json in Resources */,
 				23E382EB2A9942E2007A54A8 /* Preview Assets.xcassets in Resources */,
@@ -287,6 +294,7 @@
 				238662BD2A99591D00924E5F /* Service.swift in Sources */,
 				23E382E42A9942DC007A54A8 /* CodingChallenge_ToyotaApp.swift in Sources */,
 				238662BB2A994B3800924E5F /* PittsburghWeatherModel.swift in Sources */,
+				2380CFE82A9E517D009A6A5A /* PLANTUML_Project.swift in Sources */,
 				23E3CE452A9BE4E300B6CF7E /* StandurdView.swift in Sources */,
 				23E3CE5F2A9C3FB100B6CF7E /* MockAPIService.swift in Sources */,
 				238662BF2A995AC800924E5F /* PittsburghWeatherViewModel.swift in Sources */,

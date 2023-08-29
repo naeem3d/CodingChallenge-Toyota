@@ -9,7 +9,7 @@ import Foundation
 
 
 class MockAPIService: APIServiceProtocol {
-    func fetchSchools(city: String) async throws -> PittsburghWeather {
+    func fetchWeatherDataForCity(city: String) async throws -> PittsburghWeather {
         guard let url = Bundle.main.url(forResource: "MockData1", withExtension: "json") else { throw APIServiceError.Error429}
            
 

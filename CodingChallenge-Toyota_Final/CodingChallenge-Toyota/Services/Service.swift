@@ -17,7 +17,7 @@ import Foundation
 
 
 protocol APIServiceProtocol {
-    func fetchSchools(city: String) async throws -> PittsburghWeather
+    func fetchWeatherDataForCity(city: String) async throws -> PittsburghWeather
     func fetchWeatherForecast(city: String, completion: @escaping (Result<The5DaysForCast, Error>) -> Void)
 }
 enum APIServiceError: Error {
@@ -30,7 +30,7 @@ enum APIServiceError: Error {
 
 
 class APIServces: APIServiceProtocol {
-    func fetchSchools(city: String)  async throws  -> PittsburghWeather {
+    func fetchWeatherDataForCity(city: String)  async throws  -> PittsburghWeather {
         let baseURLString = "https://api.openweathermap.org/data/2.5/weather?q=\(city),US&appid=7f34334342bc1e9948e1cb2b2992d9b6"
 //        let baseURLString = "https://api.openweathermap.org/data/2.5/weather?q=city,US&appid=7f34334342bc1e9948e1cb2b2992d9b6"
         guard let url = URL(string: baseURLString) else { throw APIServiceError.Error429}

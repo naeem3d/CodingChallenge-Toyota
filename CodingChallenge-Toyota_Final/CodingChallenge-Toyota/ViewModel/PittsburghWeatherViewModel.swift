@@ -33,7 +33,7 @@ class PittsburghWeatherViewModel: ObservableObject {
     func fetchSchools() {
         Task {
             do {
-                let fetchSchools = try await apiService.fetchSchools(city: city )
+                let fetchSchools = try await apiService.fetchWeatherDataForCity(city: city )
                 DispatchQueue.main.async {
                     self.pitsbrughDataWeather = fetchSchools
                 }
