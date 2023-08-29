@@ -128,7 +128,6 @@ struct StandurdView: View {
                         
                        
                     }
-                    Text("Test add some view ")
                     TextField("Enter city", text: $selectedCity)
                         .onChange(of: selectedCity){
                             weatherViewModel.city = selectedCity
