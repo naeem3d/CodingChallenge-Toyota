@@ -317,11 +317,6 @@ struct StandurdView: View {
             
         }
     }
-    func nextDate(after date: Date) -> Date {
-        let calendar = Calendar.current
-        currentDate = calendar.date(byAdding: .day, value: 1, to: date) ?? date
-        return currentDate
-    }
     
  
     func updateRiveAnimation() -> String {
